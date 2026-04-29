@@ -1,0 +1,41 @@
+{
+  "name": "gitlab-mr-review",
+  "version": "0.2.0",
+  "description": "Fetch current-branch GitLab MR comments and drive review-fix workflows with glab.",
+  "author": {
+    "name": "Arun Ashok",
+    "email": "arunashokvt@gmail.com",
+    "url": "https://github.com/Arunashokvt"
+  },
+  "homepage": "https://gitlab.com/gitlab-org/cli",
+  "repository": "https://gitlab.com/gitlab-org/cli",
+  "license": "MIT",
+  "keywords": [
+    "gitlab",
+    "merge-request",
+    "review",
+    "glab"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GitLab MR Review",
+    "shortDescription": "Find current-branch MR comments and fix selected review feedback.",
+    "longDescription": "Uses your local glab auth context to find the MR for the checked-out branch, list comments, collect selected feedback, and support code fixes.",
+    "developerName": "Arun Ashok",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://gitlab.com",
+    "privacyPolicyURL": "https://about.gitlab.com/privacy/",
+    "termsOfServiceURL": "https://about.gitlab.com/terms/",
+    "defaultPrompt": [
+      "Fetch MR comments for my current branch and list unresolved feedback.",
+      "Show numbered MR comments and ask me which ones to fix.",
+      "Apply fixes for the selected MR comments and summarize changes."
+    ],
+    "brandColor": "#FC6D26"
+  }
+}
