@@ -180,6 +180,52 @@ Fix comments 1,3,5. Update code and summarize each fix.
 
 ---
 
+---
+
+## Troubleshooting
+
+### `zsh: command not found: codex`
+
+Ensure Codex CLI is added to your PATH:
+
+```bash
+echo 'export PATH="/Applications/Codex.app/Contents/Resources:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+codex --version
+```
+
+---
+
+### Marketplace added but plugin not visible
+
+Verify the repository is reachable:
+
+```bash
+git ls-remote https://github.com/Arunashokvt/codex.git
+```
+
+Upgrade marketplace plugins:
+
+```bash
+/Applications/Codex.app/Contents/Resources/codex plugin marketplace upgrade home-local-plugins
+```
+
+---
+
+### If still not visible
+
+Re-add the marketplace:
+
+```bash
+/Applications/Codex.app/Contents/Resources/codex plugin marketplace remove home-local-plugins
+/Applications/Codex.app/Contents/Resources/codex plugin marketplace add https://github.com/Arunashokvt/codex.git
+```
+
+Then:
+- Restart Codex  
+- Open a fresh chat  
+
+
 ## Summary
 
 This plugin converts GitLab MR reviews into a structured, AI-assisted remediation pipeline. Instead of manually parsing feedback, you get:
@@ -188,3 +234,6 @@ This plugin converts GitLab MR reviews into a structured, AI-assisted remediatio
 - Controlled fixes  
 - Traceable changes  
 - Faster iteration cycles  
+
+
+
