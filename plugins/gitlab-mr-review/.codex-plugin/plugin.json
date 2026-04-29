@@ -29,8 +29,8 @@
       "Write"
     ],
     "websiteURL": "https://github.com/Arunashokvt",
-    "privacyPolicyURL": "https://about.gitlab.com/privacy/",
-    "termsOfServiceURL": "https://about.gitlab.com/terms/",
+    "privacyPolicyURL": "https://github.com/Arunashokvt/codex/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/Arunashokvt/codex/blob/main/TERMS.md",
     "defaultPrompt": [
       "Fetch MR comments for my current branch and list unresolved feedback.",
       "Show numbered MR comments and ask me which ones to fix.",
