@@ -4,11 +4,11 @@
   "description": "Fetch current-branch GitLab MR comments and drive review-fix workflows with glab.",
   "author": {
     "name": "Arun Ashok",
-    "email": "arunashokvt@gmail.com",
+    "email": "arunashokme@gmail.com",
     "url": "https://github.com/Arunashokvt"
   },
-  "homepage": "https://gitlab.com/gitlab-org/cli",
-  "repository": "https://gitlab.com/gitlab-org/cli",
+  "homepage": "https://github.com/Arunashokvt/codex/tree/main/plugins/gitlab-mr-review",
+  "repository": "https://github.com/Arunashokvt/codex",
   "license": "MIT",
   "keywords": [
     "gitlab",
@@ -28,7 +28,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://gitlab.com",
+    "websiteURL": "https://github.com/Arunashokvt",
     "privacyPolicyURL": "https://about.gitlab.com/privacy/",
     "termsOfServiceURL": "https://about.gitlab.com/terms/",
     "defaultPrompt": [
